@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Training/runtime artifacts
+src/**/__pycache__/
+results/logs/*
+results/figures/*
+results/tables/*
+
+# Keep result folders in git even when empty
+!results/logs/.gitkeep
+!results/figures/.gitkeep
+!results/tables/.gitkeep

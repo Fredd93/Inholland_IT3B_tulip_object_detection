@@ -1,0 +1,12 @@
+# Core deep learning stack
+torch
+torchvision
+torchmetrics
+
+# Dataset and annotation support
+pycocotools
+roboflow
+
+# Image handling and visualization
+Pillow
+matplotlib
